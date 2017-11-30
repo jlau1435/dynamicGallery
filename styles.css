@@ -1,0 +1,42 @@
+h3{
+	color: orangered;
+}
+
+body{ background: #FFFF00}
+
+selector{
+	property: value;
+	
+}
+
+/* CSS comments ---  CSS goes from top to bottom - what ever is applied last will appear in the browser. */
+
+p {
+  color:coral;
+  font-size: 18px;
+  text
+  }
+
+
+
+img {width: 600px; height:200px; margin: 20px; border-radius: 600px;
+}
+
+/* #header {background-color: black;}
+
+#footer p{color: blue;}
+
+p {
+  color:coral;
+  font-size: 18px;
+  text
+  }
+
+body {background-color: dimgrey}
+
+img {width: 600px; height:200px; margin: 20px; border-radius: 600px;
+}
+
+#header {background-color: black;}
+
+#footer p{color: blue;}
