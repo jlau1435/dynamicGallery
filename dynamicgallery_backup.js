@@ -1,5 +1,5 @@
 
-var pictureArray = ["pic1.jpg", "pic2.jpeg", "pic3.jpeg", "pic4.jpg", "pic5.jpg", "pic6.jpeg", "picture7.jpeg", "picture8.jpeg", "picture9.jpg"];
+var pictureArray = ["pic1.jpg", "pic2.jpeg", "pic3.jpeg", "pic4.jpg", "pic5.jpg", "pic6.jpeg"];
 
 var altName = [
     "Railroad tracks", 
@@ -7,13 +7,10 @@ var altName = [
     "Spring rain", 
     "Sun rais in the forest", 
     "Poppy field sunset", 
-    "Daisies in the meadow",
-    "Water",
-    "After the Rain",
-    "Fall Colors"
-];
+    "Daisies in the meadow"];
 
 var length = pictureArray.length;
+
 
 
  
@@ -31,48 +28,8 @@ var currentSliderImage = pictureArray[sliderIndex];
     
     
     
-
     
-   $("#previous").click( function(e) {
-       sliderIndex = sliderIndex - 1;
-       
-       if (sliderIndex < 0){
-           sliderIndex = length -1;
-       }
-       
-       console.log(sliderIndex);
-       
-       currentSliderImage = pictureArray[sliderIndex];
-
-       $("#currentPicture").html("<img src='Images/" + currentSliderImage + "' height='600' width='800'>"
-        );
-        
-    }  ); 
-
-
-
-
-   $("#next").click( function(e) {
-       sliderIndex = sliderIndex + 1;
-       
-       if (sliderIndex >= length){
-           sliderIndex = 0;
-       }
-       
-        console.log(sliderIndex);
-       
-       currentSliderImage = pictureArray[sliderIndex];
-
-       $("#currentPicture").html("<img src='Images/" + currentSliderImage + "' height='600' width='800'>"
-        );
-        
-    }  ); 
-
-
-
-
-
-
+    
     
     
 // DYNAMIC GALLERY
